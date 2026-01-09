@@ -1,5 +1,9 @@
 # AWS Local Dashboard
 
+<img width="1500" height="812" alt="Screenshot 2026-01-09 at 6 52 35 PM" src="https://github.com/user-attachments/assets/9f563f8a-7de9-4459-b651-1a5a60036d40" />
+
+
+
 > A production-ready, local-only AWS cost and resource visibility dashboard. No AWS Console login required.
 
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://docker.com)
