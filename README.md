@@ -361,4 +361,5 @@ MIT License - feel free to use, modify, and distribute.
 
 ---
 
-**Built with ❤️ for AWS users who want visibility without the console.**
+⚠️ This tool uses your local AWS credentials via AWS CLI.
+It does not store or transmit credentials.
