@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ec2_describe_instances",
+    "label": "EC2 - Describe instances",
+    "description": "List EC2 instances in the selected region.",
+    "service": "ec2",
+    "args": ["ec2", "describe-instances"],
+    "supportsRegion": true
+  },
+  {
+    "id": "ec2_describe_volumes",
+    "label": "EC2 - Describe volumes",
+    "description": "List EBS volumes in the selected region.",
+    "service": "ec2",
+    "args": ["ec2", "describe-volumes"],
+    "supportsRegion": true
+  },
+  {
+    "id": "vpc_describe_vpcs",
+    "label": "VPC - Describe VPCs",
+    "description": "List VPCs in the selected region.",
+    "service": "ec2",
+    "args": ["ec2", "describe-vpcs"],
+    "supportsRegion": true
+  },
+  {
+    "id": "eip_describe_addresses",
+    "label": "EC2 - Describe Elastic IPs",
+    "description": "List Elastic IP addresses in the selected region.",
+    "service": "ec2",
+    "args": ["ec2", "describe-addresses"],
+    "supportsRegion": true
+  },
+  {
+    "id": "rds_describe_db_instances",
+    "label": "RDS - Describe DB instances",
+    "description": "List RDS DB instances in the selected region.",
+    "service": "rds",
+    "args": ["rds", "describe-db-instances"],
+    "supportsRegion": true
+  },
+  {
+    "id": "s3_list_buckets",
+    "label": "S3 - List buckets",
+    "description": "List all S3 buckets in the account.",
+    "service": "s3",
+    "args": ["s3api", "list-buckets"],
+    "supportsRegion": false
+  },
+  {
+    "id": "iam_list_users",
+    "label": "IAM - List users",
+    "description": "List IAM users in the account.",
+    "service": "iam",
+    "args": ["iam", "list-users"],
+    "supportsRegion": false
+  },
+  {
+    "id": "iam_list_roles",
+    "label": "IAM - List roles",
+    "description": "List IAM roles in the account.",
+    "service": "iam",
+    "args": ["iam", "list-roles"],
+    "supportsRegion": false
+  },
+  {
+    "id": "rekognition_list_collections",
+    "label": "Rekognition - List collections",
+    "description": "List Rekognition collections in the selected region.",
+    "service": "rekognition",
+    "args": ["rekognition", "list-collections"],
+    "supportsRegion": true
+  },
+  {
+    "id": "cloudwatch_describe_alarms",
+    "label": "CloudWatch - Describe alarms",
+    "description": "List CloudWatch alarms in the selected region.",
+    "service": "cloudwatch",
+    "args": ["cloudwatch", "describe-alarms"],
+    "supportsRegion": true
+  }
+]
+
+
